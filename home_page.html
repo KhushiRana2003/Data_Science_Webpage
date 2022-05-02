@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Science|Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="usedimages/favicon/apple-touch-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="usedimages/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="usedimages/favicon/favicon-16x16.png">
+    <link rel="manifest" href="usedimages/favicon/site.webmanifest">
+    <!-- <link rel="stylesheet" href="stylesheet.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>
+        * {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header h1 {
+   text-align: center;
+   font-size: 40px;
+   color: white;
+} */
+
+/* header {
+   padding: 40px;
+   background-color: rgb(17, 124, 143);
+} */
+
+header{
+   background-color:black;
+}
+
+nav {
+   display:flex;
+   background-color: #333;
+   /* overflow: hidden; */
+}
+
+nav a {
+   text-decoration: none;
+   padding: 20px;
+   text-align: center;
+   float: left;
+   color: white;
+}
+
+main {
+   background-color: white;
+   text-align: center;
+}
+
+h2 {
+   padding: 20px;
+}
+
+section:nth-child(even) {
+   background-color: rgb(241, 241, 241);
+}
+
+section {
+   min-height: 100vh;
+}
+
+video {
+   padding: 10px;
+}
+
+
+img {
+   padding: 10px;
+}
+
+section h5 {
+   margin: 40px;
+}
+
+footer {
+   background-color: #333;
+   overflow: hidden;
+}
+
+footer a {
+   text-decoration: none;
+   padding: 20px;
+   text-align: center;
+   float: left;
+   color: white;
+}
+p{
+   display:flex;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border:3px dotted black;
+   padding:10px;
+   color:navy;
+}
+
+h2{
+   text-align: center;
+   color:darkred;
+   border:3px solid black;
+   background-color: lightgray;
+   font-size: 30px;
+   padding:20px;
+   margin:100px;
+   border-radius: 10px;
+
+}
+.banner{
+   background-image: url(./usedimages/DS.gif.gif);
+   height: 25vw;
+   background-repeat: no-repeat;
+   background-position: top center;
+   background-size: 50%;
+   background-attachment: fixed;
+   display:flex;
+}
+
+
+@media screen and (max-width : 800px){
+   nav {
+      flex-direction: column;
+      padding: 10px 0px;
+   }
+}
+
+.menubutton:hover{
+   background-color: white;
+   color: black;
+}
+
+.para{
+   display: flex;
+
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.img{
+   height: auto;
+   width: 100%;
+}
+.carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.iframe-container {
+   overflow: hidden;
+   padding-top: 56.25%; /* 16:9 */
+   position: relative;
+   width:100%;
+ } 
+ 
+.iframe-container iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   border: 0;
+   width: 100%;
+   height: 100%;
+ }
+
+.imgr{
+   max-width:100vh;
+   height:auto;
+}
+/* .ABC{
+   color:black;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border:1px solid black;
+   background-color: wheat;
+} */
+/* @media screen and (max-width: 700px){
+   para{
+      flex
+   }
+} */
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="banner"></div>
+    </header>
+    <nav>
+        <a class="menubutton" href="#">Home</a>
+        <a class="menubutton" href="#">Introduction</a>
+        <a class="menubutton" href="#">Origin and History</a>
+        <a class="menubutton" href="#">Upcoming Demands</a>
+        <a class="menubutton" href="#">Study Stuff</a>
+    </nav>
+
+    <main>
+        <section>
+            <!-- <div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+  <div class="carousel-cell"></div>
+</div> -->
+
+            <img class="img" src="usedimages/data science.jpg" alt=" NULL">
+            <h2>INTRODUCTION</h2>
+            <p class="para">Data science is an interdisciplinary field that uses scientific methods, processes,
+                algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data,
+                and apply knowledge and actionable insights from data across a broad range of application domains. Data
+                science is related to data mining, machine learning and big data.Data science is a "concept to unify
+                statistics, data analysis, informatics, and their related methods" in order to "understand and analyze
+                actual phenomena" with data. It uses techniques and theories drawn from many fields within the context
+                of mathematics, statistics, computer science, information science, and domain knowledge. However, data
+                science is different from computer science and information science. Turing Award winner Jim Gray
+                imagined data science as a "fourth paradigm" of science (empirical, theoretical, computational, and now
+                data-driven) and asserted that "everything about science is changing because of the impact of
+                information technology" and the data deluge.</p>
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell" iframe-container> <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/pzo13OPXZS4" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="carousel-cell" iframe-container><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/FsSrzmRawUg" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="carousel-cell" iframe-container><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/RDFkhLAeH2s" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="carousel-cell" iframe-container><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/OAB2bHsee9Y" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+            </div>
+
+
+        </section>
+
+        <section>
+            <h2>ORIGIN AND HISTORY</h2>
+            <p class="para">In 1962, John Tukey described a field he called "data analysis", which resembles modern data
+                science. In 1985, in a lecture given to the Chinese Academy of Sciences in Beijing, C.F. Jeff Wu used
+                the term Data Science for the first time as an alternative name for statistics. Later, attendees at a
+                1992 statistics symposium at the University of Montpellier II acknowledged the emergence of a new
+                discipline focused on data of various origins and forms, combining established concepts and principles
+                of statistics and data analysis with computing.
+
+                The term "data science" has been traced back to 1974, when Peter Naur proposed it as an alternative name
+                for computer science. In 1996, the International Federation of Classification Societies became the first
+                conference to specifically feature data science as a topic.However, the definition was still in flux.
+                After the 1985 lecture in the Chinese Academy of Sciences in Beijing, in 1997 C.F. Jeff Wu again
+                suggested that statistics should be renamed data science. He reasoned that a new name would help
+                statistics shed inaccurate stereotypes, such as being synonymous with accounting, or limited to
+                describing data. In 1998, Hayashi Chikio argued for data science as a new, interdisciplinary concept,
+                with three aspects: data design, collection, and analysis.
+
+                During the 1990s, popular terms for the process of finding patterns in datasets (which were increasingly
+                large) included "knowledge discovery" and "data mining".</p>
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell" iframe-container><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/eKoe8YE1uFU" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="carousel-cell" iframe-container>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aECk8s0FS7Q"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+        </section>
+
+        <section>
+            <h2>UPCOMING DEMANDS</h2>
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell" iframe-container><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/PXLVLS1vJHY" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="carousel-cell" iframe-container><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/ZC4jD4hJeN4" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div class="carousel-cell" iframe-container><iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/S8MmsBsGP-Q" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+        </section>
+
+        <section>
+            <h2>STUDY STUFF</h2>
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell" iframe-container>
+                    <a target="_blank" href="BOOK/Data Science from Scratch_ First Principles with Python.pdf"><img class="imgr" src="usedimages/ds1.jpg"></a>
+                </div>
+
+                <div class="carousel-cell" iframe-container><a target="_blank" href="BOOK/DS and ML.pdf"><img class="imgr" src="usedimages/ds and ml1.jpg"></a></div>
+
+                <div class= "carousel-cell" iframe-container><a target="_blank"
+                href="usedimages/data science1.pdf"><img class="imgr" src="usedimages/notes1.jpg"></div>
+
+                <div class= "carousel-cell" iframe-container><a target="_blank" href="BOOK/DSAlgo_Book.pdf"><img class="imgr" src="usedimages/dslgo1.jpg"></a></div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <!-- <h1 class="ABC">DATA SCIENCE</h1> -->
+        </main>
+</body>
+<!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+</html>
